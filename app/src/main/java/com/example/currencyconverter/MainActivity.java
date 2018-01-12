@@ -10,8 +10,8 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     public void convertFunc(View view) {
         EditText amountEditText = (EditText) findViewById(R.id.amountEditText);
-        double amountDouble = Double.parseDouble(amountEditText.getText().toString());
-        double result = amountDouble * 13354;
+        Double amountDouble = Double.parseDouble(amountEditText.getText().toString());
+        Double result = amountDouble * 13354;
         Toast.makeText(this, "Rp. " + result, Toast.LENGTH_SHORT).show();
     }
 
