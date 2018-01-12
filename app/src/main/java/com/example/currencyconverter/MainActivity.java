@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         EditText amountEditText = (EditText) findViewById(R.id.amountEditText);
         Double amountDouble = Double.parseDouble(amountEditText.getText().toString());
         Double result = amountDouble * 13354;
-        Toast.makeText(this, "Rp. " + result, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Rp. " + String.format("%.2f", result), Toast.LENGTH_SHORT).show();
     }
 
     @Override
