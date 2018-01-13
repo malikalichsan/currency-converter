@@ -26,8 +26,7 @@
         android:layout_below="@+id/amountEditText"
         android:layout_centerHorizontal="true"
         android:onClick="convertFunc"
-        android:text="Button"
-        tools:text="Convert" />
+        android:text="Convert" />
 
     <ImageView
         android:id="@+id/imageView3"
