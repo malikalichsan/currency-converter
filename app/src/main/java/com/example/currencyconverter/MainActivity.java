@@ -8,6 +8,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+
     public void convertFunc(View view) {
         EditText amountEditText = (EditText) findViewById(R.id.amountEditText);
         Double amountDouble = Double.parseDouble(amountEditText.getText().toString());
